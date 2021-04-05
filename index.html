@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joguinho</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="resources">
+        <h4 id="woodCount">Madeira: 0</h4>
+        <h4 id="stoneCount">Pedra: 0</h4>
+        <h4 id="metalCount">Metal: 0</h4>
+    </div>
+    <div id="buttons">
+        <button id="wood" onclick='takeResource(1)'>Pegar madeira</button>
+        <button id="stone" onclick='takeResource(2)'>Pegar pedra</button>
+        <button id="metal" onclick='takeResource(3)'>Pegar metal</button>
+    </div>
+    <div id="structures">
+        <button id="axe" onclick='axe()'>Comprar machado</button>
+    </div>
+</body>
+</html>
