@@ -1,0 +1,14 @@
+#resources {
+    font-size: 30px;
+}
+
+#buttons button {
+    height: 50px;
+    position: relative;
+
+}
+
+#structures button {
+    height: 50px;
+    margin-top: 5px;
+}

@@ -6,11 +6,11 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <div id="resources">
-        <h4 id="woodCount">Madeira: 0</h4>
-        <h4 id="stoneCount">Pedra: 0</h4>
-        <h4 id="metalCount">Metal: 0</h4>
-    </div>
+    <table id="resources">
+        <td id="woodCount">Madeira: 0</td>
+        <td id="stoneCount">Pedra: 0</td>
+        <td id="metalCount">Metal: 0</td>
+    </table>
     <div id="buttons">
         <button id="wood" onclick='takeResource(1)'>Pegar madeira</button>
         <button id="stone" onclick='takeResource(2)'>Pegar pedra</button>
@@ -18,6 +18,10 @@
     </div>
     <div id="structures">
         <button id="axe" onclick='axe()'>Comprar machado</button>
+        <button id="lumberjack" onclick='buyLumberjack()'>Comprar lenhador</button>
     </div>
+    <button id="saveButton" onclick='save()'>Salvar</button>
+    <button id="loadButton" onclick='load()'>Carregar</button>
+    <button id="restartButton" onclick='restart()'>Recomeçar</button>
 </body>
 </html>
