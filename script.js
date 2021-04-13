@@ -33,7 +33,7 @@ function restart() {
     document.getElementById('woodCount').innerHTML = "Madeira: " + counters.resources.wood;
     document.getElementById('stoneCount').innerHTML = "Pedra: " + counters.resources.stone;
     document.getElementById('metalCount').innerHTML = "Metal: " + counters.resources.metal;
-    save()
+    save();
 }
 
 
