@@ -39,7 +39,7 @@ function restart() {
 function save() {
     const countersJSON = JSON.stringify(counters)
     localStorage.setItem('counters', countersJSON)
-}
+};
 
 
 function takeResource(resource) {
